@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Passero+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Passero+One&display=swap");
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #5651b7;
+}
+
+body::-webkit-scrollbar-track {
+  background: #392e3d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5651b7;
+  border-radius: 0.5rem;
+  background: rgb(112, 107, 208);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 107, 208, 1) 0%,
+    rgba(86, 81, 183, 1) 100%
+  );
+  border: 1px solid rgba(86, 81, 183, 0.5);
+}
